@@ -1161,7 +1161,7 @@
 											"parentStyle": true,
 											"left": 525,
 											"top": 175,
-											"width": 54.44091796875,
+											"width": 117.7080078125,
 											"height": 13,
 											"text": "Emprunt"
 										},
@@ -1195,7 +1195,7 @@
 									"parentStyle": true,
 									"left": 520,
 									"top": 168,
-									"width": 64.44091796875,
+									"width": 127.7080078125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhyo32vj/KdSQ="
@@ -1219,12 +1219,32 @@
 									"model": {
 										"$ref": "AAAAAAGhyo32vj/GCLo="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGhywsEikCGg/c=",
+											"_parent": {
+												"$ref": "AAAAAAGhyo32vj/OxaM="
+											},
+											"model": {
+												"$ref": "AAAAAAGhywsEdUCDdco="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 525,
+											"top": 198,
+											"width": 117.7080078125,
+											"height": 13,
+											"text": "+dateEmprunt: Date",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 520,
 									"top": 193,
-									"width": 64.44091796875,
-									"height": 10
+									"width": 127.7080078125,
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1238,8 +1258,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 520,
-									"top": 203,
-									"width": 64.44091796875,
+									"top": 216,
+									"width": 127.7080078125,
 									"height": 10
 								},
 								{
@@ -1278,8 +1298,8 @@
 							"containerChangeable": true,
 							"left": 520,
 							"top": 168,
-							"width": 63.44091796875,
-							"height": 45,
+							"width": 126.7080078125,
+							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGhyo32vj/JF+I="
 							},
@@ -1435,7 +1455,18 @@
 					"_parent": {
 						"$ref": "AAAAAAGhyoF8Dz7NEsg="
 					},
-					"name": "Emprunt"
+					"name": "Emprunt",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGhywsEdUCDdco=",
+							"_parent": {
+								"$ref": "AAAAAAGhyo32vj/GCLo="
+							},
+							"name": "dateEmprunt",
+							"type": "Date"
+						}
+					]
 				}
 			]
 		},
